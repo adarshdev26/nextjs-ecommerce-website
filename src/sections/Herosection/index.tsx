@@ -2,7 +2,7 @@ import React from "react";
 
 const Herosection = () => {
   return (
-    <div className="container mx-auto">
+    <div className="p-20">
       <div className="flex flex-col items-center justify-center min-h-[40vh] text-center gap-6 p-5 ">
         <h1 className="text-6xl font-bold">Immersive Sound, Simplified</h1>
         <p className="md:w-fit">
@@ -19,13 +19,16 @@ const Herosection = () => {
           style={{ width: "50%" }}
         />
       </div>
-      <div className="text-center py-8 px-6 mt-6">
-        <h1 className="text-5xl font-bold px-4">
+      <div className="text-center mt-4 bg-[#fafafa] h-fit p-20 ">
+        <div className="max-w-5xl mx-auto   ">
+        <h1 className="text-6xl font-medium px-4">
           Our latest innovation in portable speakers combines superior sound
           quality
         </h1>
+        </div>
       </div>
     </div>
+
   );
 };
 
