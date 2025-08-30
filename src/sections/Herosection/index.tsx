@@ -19,8 +19,8 @@ const Herosection = () => {
           style={{ width: "50%" }}
         />
       </div>
-      <div className="text-center mt-4 bg-[#fafafa] h-fit p-20 ">
-        <div className="max-w-5xl mx-auto   ">
+      <div id="about" className="text-center mt-4 bg-[#fafafa] h-fit p-20 w-full">
+        <div className=" ">
         <h1 className="text-6xl font-medium px-4">
           Our latest innovation in portable speakers combines superior sound
           quality

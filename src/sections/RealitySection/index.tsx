@@ -6,11 +6,11 @@ const Reality = () => {
         <div className='grid md:grid-cols-2 max-w-7xl mx-auto'>
             <div className=''>
                 <button className='p-3 rounded-2xl border'>In reality</button>
-                <h2 className='mt-2 text-3xl font-medium'>Timeless Elegance</h2>
+                <h2 className='mt-2 text-5xl font-medium'>Timeless Elegance</h2>
             </div>
 
             <div className='mt-3 '>
-                <p>Enhance your space with a perfect blend of modern design and warm ambiance. Our speaker bring style and sophistication</p>
+                <p className='text-xl'>Enhance your space with a perfect blend of modern design and warm ambiance. Our speaker bring style and sophistication</p>
             </div>
         </div>
 
